@@ -9,7 +9,7 @@
 namespace miniplc0 {
 
 	enum TokenType {
-		NULL_TOKEN,
+		NULL_TOKEN,//
 		UNSIGNED_INTEGER,
 		IDENTIFIER,
 		BEGIN,

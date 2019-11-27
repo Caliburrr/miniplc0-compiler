@@ -71,6 +71,7 @@ namespace miniplc0 {
 		void addVariable(const Token&);
 		void addConstant(const Token&);
 		void addUninitializedVariable(const Token&);
+
 		// 是否被声明过
 		bool isDeclared(const std::string&);
 		// 是否是未初始化的变量
@@ -79,6 +80,7 @@ namespace miniplc0 {
 		bool isInitializedVariable(const std::string&);
 		// 是否是常量
 		bool isConstant(const std::string&);
+
 		// 获得 {变量，常量} 在栈上的偏移
 		int32_t getIndex(const std::string&);
 	private:

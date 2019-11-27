@@ -32,10 +32,10 @@ namespace miniplc0 {
 		ErrInvalidVariableDeclaration,
 		ErrIncompleteExpression,
 		ErrNotDeclared,
-		ErrAssignToConstant,
+		ErrAssignToConstant,//给常量赋值
 		ErrDuplicateDeclaration,
 		ErrNotInitialized,
-		ErrInvalidAssignment,
+		ErrInvalidAssignment,//不合法赋值，对应const int a = ;
 		ErrInvalidPrint
 	};
 
